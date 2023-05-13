@@ -11,3 +11,6 @@ stnc:stnc.c
 
 clean:
 	rm -f client server stnc
+
+.PHONY: default
+default: all
